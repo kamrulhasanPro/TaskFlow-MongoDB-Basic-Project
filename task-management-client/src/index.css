@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@plugin 'daisyUI';
+
+.my-input{
+  @apply py-1 px-2 text-xl bg-emerald-100 backdrop-blur-lg rounded-sm focus:outline-none
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #00d390; /* adds bg color */
+  border-radius: 4px;
+  cursor: pointer;
+}
